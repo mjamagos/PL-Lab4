@@ -1,0 +1,27 @@
+PS C:\Users\Jobelle\Downloads\PL-Lab4> Measure-Command { "2`n2026-10-09 23:00" | java Procrastinator }
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 415
+Ticks             : 4154304
+TotalDays         : 4.80822222222222E-06
+TotalHours        : 0.000115397333333333
+TotalMinutes      : 0.00692384
+TotalSeconds      : 0.4154304
+TotalMilliseconds : 415.4304
+
+____________________________________________
+
+Test B. Type Testing
+
+PS C:\Users\Jobelle\Downloads\PL-Lab4> jshell
+|  Welcome to JShell -- Version 23.0.1
+|  For an introduction type: /help intro
+
+jshell> System.out.println("1" + 1); 
+11
+
+jshell> 

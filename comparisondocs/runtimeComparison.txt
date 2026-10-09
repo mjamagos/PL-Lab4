@@ -1,0 +1,68 @@
+Test A. Runtime comparison on deadline calculator 
+Languages: Python, Java, C, and php
+
+The test setup:
+OS: Windows
+Input: 2 assignment
+Deadline: 2026-10-09 19:00 in yyyy-mm-dd hh:mm format
+Measurement Tool: PowerShell Measure-Command
+
+Results by lowest to highest elapsed time in ms
+1. Python
+Elapsed Time: 126.17 ms
+
+2. PHP 
+Elapsed Time: 138.27 ms
+
+3. C
+Elapsed Time: 221.31 ms
+
+4. Java 
+Elapsed Time: 415.43 ms
+
+The result of a single set of run, Python recorded the lowest elapsed
+time at 126.17 ms, followed by PHP at 138.27 ms, C at 221.23 ms,
+then Java at 415.43 ms. 
+
+____________________________________________
+
+Test B. Type testing using '1' + 1
+
+1. Python 
+- Type: Dynamic, Strong
+- Result: TypeError
+- My observation: Python allows variables to hold 
+different types, but it does not automatically combine 
+a string and an integer in this operation.
+
+2. Java
+- Type: Static, Strong
+- Result: 11
+- My observation: Java allows '1' + 1 because the
++ operator joins the different type together
+
+3. PHP
+- Type: Dynamic, Weak
+- Result: 2
+- My observation: PHP automatically converts the string 
+'1' into a number when adding it to the integer 1.
+
+4. C
+- Type: Static, relatively weak
+- Result: 50
+- My observation: C treats '1' as a character with a numeric 
+value of 49. When adding 1, the result becomes 50 instead of 
+converting the character into the number 1.
+
+
+Overall Observation: The type test showed how programming languages 
+handle operations involving different data types. Python produced a 
+TypeError when adding a string and an integer, while Java joined the 
+values into a string. PHP automatically converted the numeric string 
+during the addition operation. In C, '1' was treated as a character 
+with a numeric value of 49, so adding 1 resulted in 50. 
+
+These results demonstrate the differences in type checking, 
+automatic type conversion, and how each language handles strings, 
+characters, and numbers.
+

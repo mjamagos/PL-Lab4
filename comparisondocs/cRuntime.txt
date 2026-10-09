@@ -1,0 +1,20 @@
+PS C:\Users\Jobelle\Downloads\PL-Lab4> Measure-Command { "2`n2026-10-09 23:00" | .\procrastinator.exe }  
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 221
+Ticks             : 2213126
+TotalDays         : 2.56148842592593E-06
+TotalHours        : 6.14757222222222E-05
+TotalMinutes      : 0.00368854333333333
+TotalSeconds      : 0.2213126
+TotalMilliseconds : 221.3126
+
+____________________________________________
+Test B. Type Testing
+
+PS C:\Users\Jobelle\Downloads\PL-Lab4> .\typeTest.exe
+50

@@ -1,0 +1,24 @@
+PS C:\Users\Jobelle\Downloads\PL-Lab4> Measure-Command { "2`n2026-10-09 23:00" | python .\procrastinator.py }
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 126
+Ticks             : 1261706
+TotalDays         : 1.46030787037037E-06
+TotalHours        : 3.50473888888889E-05
+TotalMinutes      : 0.00210284333333333
+TotalSeconds      : 0.1261706
+TotalMilliseconds : 126.1706
+
+____________________________________________
+
+Test B. Type Testing
+
+PS C:\Users\Jobelle\Downloads\PL-Lab4> python -c "print('1' + 1)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+PS C:\Users\Jobelle\Downloads\PL-Lab4> 
